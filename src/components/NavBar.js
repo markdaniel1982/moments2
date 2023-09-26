@@ -10,14 +10,14 @@ const NavBar = () => {
       <Container>
         <NavLink to="/">
           <Navbar.Brand>
-            <img src={logo} alt="logo" height="45" />
-          </Navbar.Brand>
+            <img src={logo} alt="logo" height="45" />            
+          </Navbar.Brand>          
         </NavLink>
+        <p> username </p>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto text-left">
             <NavLink
-              exact
               className={styles.NavLink}
               activeClassName={styles.Active}
               to="/"
